@@ -1,3 +1,4 @@
+#  Typecasting - The conversion of one data type into another data type is known as type casting or type conversion in Python
 # a="20"
 # b="10"
 # # print(int(a) + int(b))
