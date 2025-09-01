@@ -39,12 +39,23 @@
 
 # --- vehicle speed -------------------------------
 
-speed = int(input("Enter a vehicle speed Km/Hr: "))
-print("Enter a vehicle speed Km/Hr: ", speed)
+# speed = int(input("Enter a vehicle speed Km/Hr: "))
+# print("Enter a vehicle speed Km/Hr: ", speed)
+#
+# if speed < 80:
+#     print("The vehicle speed is low")
+# elif speed == 80:
+#     print("The vehicle speed is medium")
+# else:
+#     print("The vehicle speed is high")
 
-if speed < 80:
-    print("The vehicle speed is low")
-elif speed == 80:
-    print("The vehicle speed is medium")
-else:
-    print("The vehicle speed is high")
+# --Bill units
+unit = int(input("Enter the units :"))
+print("Enter the units: ", unit)
+rate_per_unit = 10
+
+if unit <= 100:
+    print("Your light bill is free")
+elif unit >= 100:
+    bill = unit*rate_per_unit
+    print("Your system Generated Bill is: ", bill)
