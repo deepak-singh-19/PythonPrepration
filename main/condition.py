@@ -9,17 +9,9 @@
 # a = int(input("Enter your age: "))
 # print("Your age is:", a)
 
-# print(a<18)
-# print(a>18)
-# print(a<=18)
-# print(a>=18)
-# print(a==18)
+#
 # print(a!=18)
 
-# if a < 18:
-#     print("You are not eligible for the voting:", a)
-# else:
-#     print("You are eligible for the voting:", a)
 
 #-- Check the positive, negative & zero --------
 # num = int(input("Enter a number: "))
@@ -33,12 +25,19 @@
 #--- odd & even number ---------------------------
 # num = int(input("Enter a number: "))
 #
-# if num % 2 == 0:
+# if num % 2 == 0: print(a<18)
+# # print(a>18)
+# # print(a<=18)
+# # print(a>=18)# if a < 18:
+# # #     print("You are not eligible for the voting:", a)
+# # # else:
+# # #     print("You are eligible for the voting:", a)
+# # print(a==18)
 #     print("Even")
 # else:
 #     print("Odd")
 
-#--- vehicle speed -------------------------------
+# --- vehicle speed -------------------------------
 
 speed = int(input("Enter a vehicle speed Km/Hr: "))
 print("Enter a vehicle speed Km/Hr: ", speed)
