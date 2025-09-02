@@ -39,7 +39,7 @@
 
 # --- vehicle speed -------------------------------
 
-# speed = int(input("Enter a vehicle speed Km/Hr: "))
+# speed = int(input("Enter a vehicle speed Km/Hr:"))
 # print("Enter a vehicle speed Km/Hr: ", speed)
 #
 # if speed < 80:
@@ -50,12 +50,36 @@
 #     print("The vehicle speed is high")
 
 # --Bill units
-unit = int(input("Enter the units :"))
-print("Enter the units: ", unit)
-rate_per_unit = 10
+# unit = int(input("Enter the units :"))
+# # print("Enter the units: ", unit)
+# rate_per_unit = 10
+#
+# if unit <= 100:
+#     print("Your light bill is free")
+# elif unit <= 200:
+#     bill = unit*rate_per_unit
+#     print("Your system Generated Bill is: ", bill)
+# else:
+#     bill = unit*15
+#     print("Your system Generated Bill is: ", bill)
 
-if unit <= 100:
-    print("Your light bill is free")
-elif unit >= 100:
-    bill = unit*rate_per_unit
-    print("Your system Generated Bill is: ", bill)
+#-- Mark grading system
+# mark = int(input("Enter the marks :"))
+# if mark <= 50:
+#     print("Grade C")
+# elif mark <= 75:
+#     print("Grade B")
+# else:
+#     print("Grade A")
+
+#-- Greatest of two numbers
+
+a = int(input('Enter a first number: '))
+b = int(input('Enter a second number: '))
+
+if a > b:
+    print("First number is greater than second number")
+elif b > a:
+    print("Second numer is greater than first number")
+else:
+    print("Both numbers are equal")
