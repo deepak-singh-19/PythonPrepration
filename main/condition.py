@@ -74,12 +74,21 @@
 
 #-- Greatest of two numbers
 
-a = int(input('Enter a first number: '))
-b = int(input('Enter a second number: '))
+# a = int(input('Enter a first number: '))
+# b = int(input('Enter a second number: '))
+#
+# if a > b:
+#     print("First number is greater than second number")
+# elif b > a:
+#     print("Second numer is greater than first number")
+# else:
+#     print("Both numbers are equal")
 
-if a > b:
-    print("First number is greater than second number")
-elif b > a:
-    print("Second numer is greater than first number")
+# ------ Even or Odd number program
+
+number = int(input("Enter the number: "))
+
+if number % 2 == 0:
+    print("Even number :", number)
 else:
-    print("Both numbers are equal")
+    print("Odd number :", number)
