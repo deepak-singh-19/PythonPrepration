@@ -23,9 +23,13 @@
 
 
 # ----- even or odd number list
-for number in range(2, 100):
+for number in range(1, 100):
     print(number)
     if number % 2 == 0:
         print("Even number :", number)
     else:
         print("Odd number :", number)
+
+# name = 'Deepak Singh'
+# for i in name:
+#     print(i)
