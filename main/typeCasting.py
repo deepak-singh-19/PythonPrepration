@@ -1,13 +1,15 @@
 #  Typecasting - The conversion of one data type into another data type is known as type casting or type conversion in Python
-# a="20"
-# b="10"
+#  Typecasting - Typecasting is process of converting a value of one data type to another datatype. (string, int, float, boolean)
+
+a="20"
+b="10"
 # # print(int(a) + int(b))
 #
-# c=12
-# d=15
-# print(int(a)*d)
-# print(a*d)
-# print(a+b)
+c=12
+d=15
+print(int(a)*d)
+print(int(a)*int(d))
+print(int(a)+int(b))
 
 # str="10"
 # str1="20"
@@ -19,10 +21,10 @@
 # sum = number + str_number
 # print("The sum of the both number is:", sum)
 
-name = "Deepak"
-age = 25
-hight = 5.6
-status = True
+# name = "Deepak"
+# age = 25
+# hight = 5.6
+# status = True
 
 # print(type(name))
 # print(type(age))
@@ -35,6 +37,6 @@ status = True
 # print(type(age))
 
 # flot to integer
-hight = int(hight)
-print(hight)
-print(type(hight))
+# hight = int(hight)
+# print(hight)
+# print(type(hight))
