@@ -13,8 +13,28 @@
 # str1="20"
 # print(int(str) +int(str1))
 
-str = "18"
-number = 7
-str_number = int(str)
-sum = number + str_number
-print("The sum of the both number is:", sum)
+# str = "18"
+# number = 7
+# str_number = int(str)
+# sum = number + str_number
+# print("The sum of the both number is:", sum)
+
+name = "Deepak"
+age = 25
+hight = 5.6
+status = True
+
+# print(type(name))
+# print(type(age))
+# print(type(hight))
+# print(type(status))
+
+# integer to flot
+# age = float(age)
+# print(age)
+# print(type(age))
+
+# flot to integer
+hight = int(hight)
+print(hight)
+print(type(hight))

@@ -26,13 +26,13 @@
 # num = int(input("Enter a number: "))
 #
 # if num % 2 == 0: print(a<18)
-# # print(a>18)
-# # print(a<=18)
-# # print(a>=18)# if a < 18:
-# # #     print("You are not eligible for the voting:", a)
-# # # else:
-# # #     print("You are eligible for the voting:", a)
-# # print(a==18)
+# print(a>18)
+# print(a<=18)
+# print(a>=18)# if a < 18:
+#     print("You are not eligible for the voting:", a)
+# else:
+#     print("You are eligible for the voting:", a)
+# print(a==18)
 #     print("Even")
 # else:
 #     print("Odd")
@@ -86,9 +86,9 @@
 
 # ------ Even or Odd number program
 
-number = int(input("Enter the number: "))
-
-if number % 2 == 0:
-    print("Even number :", number)
-else:
-    print("Odd number :", number)
+# number = int(input("Enter the number: "))
+#
+# if number % 2 == 0:
+#     print("Even number :", number)
+# else:
+#     print("Odd number :", number)
