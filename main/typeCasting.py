@@ -13,8 +13,11 @@
 # str1="20"
 # print(int(str) +int(str1))
 
-str = "18"
-number = 7
-str_number = int(str)
-sum = number + str_number
-print("The sum of the both number is:", sum)
+# str = "18"
+# number = 7
+# str_number = int(str)
+# sum = number + str_number
+# print("The sum of the both number is:", sum)
+
+a="deepak"
+print(type(a))
