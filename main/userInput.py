@@ -93,8 +93,32 @@
 
 # Exercise 10 Area of the room
 
-length = float(input("Enter the length of the room: "))
-width = float(input("Enter the width of the room: "))
+# length = float(input("Enter the length of the room: "))
+# width = float(input("Enter the width of the room: "))
+#
+# room_area = length * width
+# print(f"The area of the room is {room_area} SQ FT")
 
-room_area = length * width
-print(f"The area of the room is {room_area} SQ FT")
+# Exercise 11 circle calculator
+
+# radius = float(input("Enter the radius: "))
+# area = 3.14 * radius * radius
+# print(f"Area of the circle: {area:.2f}")
+
+# Exercise 12 simple interest
+#formula simple interest = (principle*rate*time)/100
+
+# principle_amount = float(input("Enter the principle amount: "))
+# rate = float(input("Enter the rate of interest: "))
+# time = float(input("Enter the time (Years): "))
+#
+# simple_interest = (principle_amount * rate * time)/100
+# print(f"Your simple interest is: {simple_interest:.2f}")
+
+# Exercise 13 valume of a cylnder
+# hight = float(input("Enter the hight: "))
+# radius = float(input("Enter the radius: "))
+#
+# valume = 3.14 * radius * radius * hight
+# print(f"Valume of cylnder: {valume:.2f}")
+
