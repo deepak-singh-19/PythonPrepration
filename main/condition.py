@@ -92,3 +92,36 @@
 #     print("Even number :", number)
 # else:
 #     print("Odd number :", number)
+
+#----internet Access
+# age = float(input("Enter you Age: "))
+#
+# if age >= 18:
+#     print("Welcome to High-speed internet")
+# else:
+#     print("Sorry! You can't access the internet")
+
+#---office entry access
+# name = input("Enter your name: ")
+# password = int(input("Enter your password: "))
+#
+# if password == 1123:
+#     print("Welcome!")
+# else:
+#     print("Sorry!")
+
+#---task recharge
+# days  = int(input("Enter the days: "))
+# if days <= 28:
+#     print("Your recharge is not expire")
+# else:
+#     print("Your recharge has been expired")
+
+#--------------bill charge
+# units = float(input("Enter the units: "))
+# unit_charge = 5
+# bills = units * unit_charge
+# if units >= 50:
+#     print(f"Your current month electricity bill is: {bills}rs")
+# else:
+#     print("Your current month electricity bill is Zero!")
