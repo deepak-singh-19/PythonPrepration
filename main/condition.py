@@ -125,3 +125,85 @@
 #     print(f"Your current month electricity bill is: {bills}rs")
 # else:
 #     print("Your current month electricity bill is Zero!")
+
+#----Positive, Negative & Zero
+# number = int(input("Enter a number: "))
+# if number > 0:
+#     print("Positive number")
+# elif number < 0:
+#     print("Negative number")
+# else:
+#     print("Zero")
+
+#------ Larget number
+# num1 = float(input("Enter a number: "))
+# num2 = float(input("Enter a number: "))
+# num3 = float(input("Enter a number: "))
+
+#---------Using with condition (if, else)
+# if num1 > num2:
+#     print(f"{num1} is greater")
+# else:
+#     print(f"{num2} is greater")
+
+#--------without applying condition
+# print(f"The greater number is : {max(num1, num2, num3)}")
+
+#----------Age Eligibility (Voting)
+# age = float(input("What is your age? "))
+# if age >= 18:
+#     print("You are eligible for voting")
+# else:
+#     print("You are not eligible for voting")
+
+#-----------Divisible by 5
+# number = int(input("Enter a number: "))
+# if number % 5 == 0:
+#     print(f"{number} is divisible by 5")
+# else:
+#     print(f"{number} is not divisible by 5")
+
+#--------Number Divisible by Both 3 and 5
+# number = int(input("Enter a number: "))
+# if number % 3 == 0 and number % 5 == 0:
+#     print("Number divisible by 3 and 5")
+# elif number % 3 == 0:
+#     print("Number divisible by 3")
+# elif number % 5 == 0:
+#     print("Number divisible by 5")
+# else:
+#     print("Number not divisible by 3 and 5")
+
+#------Salary Bonus Calculation
+# salary = int(input("Enter your salary: "))
+# bonus = salary * 0.20
+# if salary >= 50000:
+#     print(f"Your salary bonus is: {bonus}")
+# elif salary >= 30000:
+#     bonus = salary * 0.10
+#     print(f"Your salary bonus is: {bonus}")
+# else:
+#     bonus = salary * 0.05
+#     print(f"Your salary bonus is: {bonus}")
+
+#----------student mark
+# mark = int(input("Enter your mark: "))
+#
+# if mark >=90:
+#     print(f"According to your mark the grade is A")
+# elif mark >= 60:
+#     print(f"According to your mark the grade is B")
+# else:
+#     print(f"According to your mark the grade is C")
+
+#---------Login System Basic Logic
+username = input("Please enter your username: ")
+password = int(input("Please enter your password: "))
+
+if username == "admin":
+    if password == 1234:
+        print("Welcome To Admin")
+    else:
+        print("Incorrect Password")
+else:
+    print("Incorrect Username")

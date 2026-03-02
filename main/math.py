@@ -36,6 +36,6 @@ import math
 # print(result)
 
 # Exercise circle formula
-radius = float(input("Enter the radius of the circle: "))
-circumference = 2 * math.pi * radius
-print(f"The Circumference is: {circumference: .2f}cm")
+# radius = float(input("Enter the radius of the circle: "))
+# circumference = 2 * math.pi * radius
+# print(f"The Circumference is: {circumference: .2f}cm")
