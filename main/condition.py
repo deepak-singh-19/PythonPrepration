@@ -197,13 +197,24 @@
 #     print(f"According to your mark the grade is C")
 
 #---------Login System Basic Logic
-username = input("Please enter your username: ")
-password = int(input("Please enter your password: "))
+# username = input("Please enter your username: ")
+# password = int(input("Please enter your password: "))
+#
+# if username == "admin":
+#     if password == 1234:
+#         print("Welcome To Admin")
+#     else:
+#         print("Incorrect Password")
+# else:
+#     print("Incorrect Username")
 
-if username == "admin":
-    if password == 1234:
-        print("Welcome To Admin")
-    else:
-        print("Incorrect Password")
-else:
-    print("Incorrect Username")
+#------Number Divisible by 2 and 5
+# number = int(input("Enter a number: "))
+# if number % 2 == 0 and number % 5 == 0:
+#     print("The number is divisible by 2 and 5")
+# elif number % 2 == 0:
+#     print("The number is divisible by 2")
+# elif number % 5 == 0:
+#     print("The number is divisible by 5")
+# else:
+#     print("The number is not divisible by 2 and 5")
