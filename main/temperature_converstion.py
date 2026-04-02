@@ -33,5 +33,5 @@
 # a = Student.isTeen(18)
 # print(a)
 
-a = input('Enter your name: ')
-print(type(a))
+# a = input('Enter your name: ')
+# print(type(a))
