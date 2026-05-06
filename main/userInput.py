@@ -122,3 +122,37 @@
 # valume = 3.14 * radius * radius * hight
 # print(f"Valume of cylnder: {valume:.2f}")
 
+# Exercise 14
+# credit_score = int(input("Enter you credit score: "))
+# if credit_score <= 500:
+#     print("You are not able to apply credit card")
+# else:
+#     print("You are able to apply credit card")
+
+# Exercise 15
+# net_speed = int(input("Enter your net speed: "))
+# if net_speed <= 50:
+#     print("Your net speed is less than 50mbps, you can't join the meeting")
+# else:
+#     print("Welcome to the meeting")
+
+# Exercise 16
+# score = int(input("Enter your percentage: "))
+#
+# if score < 40:
+#     print("Sorry, you are fail")
+# elif score < 60:
+#     print("You are passed in third division")
+# elif score < 85:
+#     print("You are passed in second division")
+# else:
+#     print("You are passed in first division")
+
+# Exercise 17
+username = input("Enter your username: ")
+password = int(input("Enter your password: "))
+
+if username == "Deepak" and password == 1234:
+    print("Welcome " + username)
+else:
+    print("Wrong username or password")
