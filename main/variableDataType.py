@@ -48,3 +48,49 @@
 # name = input("Please enter your username: ")
 # password = int(input("Please enter your password: "))
 # print("Your username is " + name, "and password is ",password)
+
+#--Data type identification
+# a = 10
+# b = "Deepak"
+# c = 10.3
+# d = True
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+
+#---List practice
+# #print second car company
+# #print last company namr
+# #print length of the suzuki
+# car_company = ["Tata", "Mahindra", "Suzuki", "Nexa"]
+# print("car company:", car_company[1])
+# print("car company:", car_company[3])
+# print("car company:", car_company[-1])
+# print("car company:", len(car_company))
+
+#--Tuple practice
+# a= ("apple", "banana", "cherry", "orange", "grape", "mango")
+# #print banana
+# print("Fruit name : ", a[1])
+# print("length of a : ",len(a))
+
+#--Remove duplicate entry
+#name = ("Yogesh", "Deepak", "Deepak", "Rahul","Aman", "Rahul")
+# name_ex = {"Yogesh", "Deepak", "Deepak", "Rahul","Aman", "Rahul"} #--when we store the value in the curly brackets, the python is remove the duplicate entry automatic
+# print(name)
+# print(tuple(set(name)))
+
+#-take a user input for name and age
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+# print(f"Your name is {name} and your age is {age}")
+# print(f"Hello {name} your age is {age}")
+
+#--store website url in variable and print the length of the url and convert to upper case
+# url = ("https://www.amazon.in")
+# url = input("Please enter your favourite url: ")
+# print(type(url))
+# print(len(url))
+# print(url.upper())
+# print(url.replace("https://www.amazon.in","https://www.flipcart.in/"))
