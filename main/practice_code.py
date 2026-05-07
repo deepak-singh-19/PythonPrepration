@@ -50,10 +50,33 @@
 #     print("Wrong username or password")
 
 #-8- Check largest digit between two numbers
-first_num = int(input("Enter first number: "))
-second_num = int(input("Enter second number: "))
+# first_num = int(input("Enter first number: "))
+# second_num = int(input("Enter second number: "))
+#
+# if first_num > second_num:
+#     print("The first number is greater than the second number")
+# else:
+#     print("The second number is greater than the first number")
 
-if first_num > second_num:
-    print("The first number is greater than the second number")
-else:
-    print("The second number is greater than the first number")
+#--Even or odd
+# number =float(input("Enter the digits: "))
+# if number % 2 == 0:
+#     print("It is even number")
+# else:
+#     print("It is odd number")
+
+#--positive, negative and zero
+# number = int(input("Enter the number: "))
+# if number > 0:
+#     print("This number is positive number")
+# elif number < 0:
+#     print("This number is negative number")
+# else:
+#     print("This number is zero")
+
+#-vote criteria
+# age = int(input("Enter your age: "))
+# if age >=18:
+#     print("You are eligible for the vote")
+# else:
+#     print("Your are not eligible for the vote")
