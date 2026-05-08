@@ -80,3 +80,104 @@
 #     print("You are eligible for the vote")
 # else:
 #     print("Your are not eligible for the vote")
+
+#--weekday and weekend first program
+# days = input("Enter the days: ")
+# if days == "Monday":
+#     print("It's weekday")
+# elif days == "Tuesday":
+#     print("It's weekday")
+# elif days == "Wednesday":
+#     print("It's weekday")
+# elif days == "Thursday":
+#     print("It's weekday")
+# elif days == "Friday":
+#     print("It's weekday")
+# else:
+#     print("It's weekend")
+
+#--weekday or weekend second program
+# day = input("Enter a day: ").strip() #--.strip() method is used for removing the all whitespace from strat and ending the string
+# if day == "Saturday" or day == "Sunday":
+#     print("it's weekend")
+# else:
+#     print("it's weekday")
+
+#-check the fail pass criteria
+# marks = float(input("Enter your marks: "))
+# if marks <= 40:
+#     print("Sorry!, Yor are failed")
+# elif marks > 100:
+#     print("Please enter the correct marks")
+# else:
+#     print("Congrats!, You are passed")
+
+#--Temperature Check
+# Temperature = float(input("Enter Temperature in Celcius: "))
+# if Temperature >= 35:
+#     print("It's a hot day")
+# else:
+#     print("Good Temperature")
+
+#- ATM withdrawal---take account balance and withdrawal amount.
+# account_balance = 10000
+# withdrawal_amount = float(input("Enter withdrawal amount: "))
+# if withdrawal_amount > account_balance:
+#     print("Withdrawal amount exceeded")
+# else:
+#     print("Insufficient balance")
+
+#---hotel bill
+# tea = int(input("Enter the quantity the cup of tea: "))
+# coffee = int(input("Enter the quantity the cup of coffee: "))
+# water = int(input("Enter the quantity the botel of water: "))
+# tea_price = 1000
+# coffee_price = 20
+# water_cost = 40
+# total_cost = tea_price*tea + coffee_price*coffee + water_cost*water
+# print(float(total_cost))
+# if total_cost >=10000:
+#     gst = total_cost * 2/100
+#     print(gst + total_cost)
+# else:
+#     print(total_cost)
+
+#--Login OTP Verification
+# mobile_number = int(input("Enter mobile number: "))
+# otp = int(input("Enter OTP: "))
+# if otp == 5442:
+#     print("OTP match successfully")
+# else:
+#     print("Invalid OTP")
+
+#--number range
+# number = int(input("Enter the number: "))
+# if number >=1 and number <=100:
+#     print("The number is between 1 and 100")
+# else:
+#     print("The number is not between 1 and 100")
+
+#--electricity bill charge program first
+# unit = int(input('Enter the electricity used unit: '))
+# bill = unit*10
+# # print(bill)
+# if unit >= 100:
+#     bill = unit*20
+#     print(bill)
+# else:
+#     print(bill)
+
+#---electricity bill charge program second
+# unit = int(input('Enter the electricity used unit: '))
+# bill = unit*10
+# if bill > 2000:
+#     discount_amount = bill * 5/100
+#     print(f"After discount your bill is {bill-discount_amount:.2f} rupees")
+# else:
+#     print("No discount, your bill is", bill)
+
+#--Largest number
+num1 = int(input('Enter the first number: '))
+num2 = int(input('Enter the second number: '))
+num3 = int(input('Enter the third number: '))
+print((num1, num2, num3))
