@@ -176,8 +176,72 @@
 # else:
 #     print("No discount, your bill is", bill)
 
-#--Largest number
-num1 = int(input('Enter the first number: '))
-num2 = int(input('Enter the second number: '))
-num3 = int(input('Enter the third number: '))
-print((num1, num2, num3))
+#--Largest number-- using with the max method
+# num1 = int(input('Enter the first number: '))
+# num2 = int(input('Enter the second number: '))
+# num3 = int(input('Enter the third number: '))
+# largest = max(num1, num2, num3)
+# print(f"The largest number is {largest}")
+
+#--largest number between three numbers using the condition (if-else)
+# a = int(input('Enter the first number: '))
+# b = int(input('Enter the second number: '))
+# c = int(input('Enter the third number: '))
+# if a>=b and a>=c:
+#     largest = a
+# elif b>=a and b>=c:
+#     largest = b
+# else:
+#     largest = c
+# print(f'The largest number is {largest}')
+
+#--email verification-- using with the .endswith() method
+# email = input("Enter your email: ").strip().lower()
+# if email.endswith("@gmail.com"):
+#     print("valid email")
+# else:
+#     print("invalid email")
+
+#--email verification-- using with the condition method
+# email = input("Enter your email: ").strip().lower()
+# if "@gmail.com" in email:
+#     print("Email address is valid")
+# else:
+#     print("Email address is not valid")
+
+#---check the mobile number length
+# mobile_num = int(input("Enter the mobile number: "))
+# length = len(str(mobile_num))
+# if length == 10:
+#     print(f"the mobile number length is {length}")
+# else:
+#     print(f"the mobile number length is {length}, Please enter the correct mobile number")
+
+#---divisible by 3 and 5
+# number = int(input("Enter a number: "))
+# if number % 3 == 0:
+#     print("The given number is divisible by 3")
+# elif number % 5 == 0:
+#     print("The given number is divisible by 5")
+# else:
+#     print("invalid number")
+
+#---website login attempt
+# login_attempt = int(input("Enter your login attempt here: "))
+# if login_attempt >3:
+#     print("Account Blocked")
+# else:
+#     print("try again")
+
+#--Movie ticket Eligibility
+#Age below 12 - Child ticket
+#Age between 12-59 = Adult ticket
+#Age 60+ = Senior citizen ticket
+# movie = input("Enter movie name: ")
+# age = int(input("Enter your age: "))
+# if age <=12:
+#     print("You are child")
+# elif age <=59:
+#     print("You are a Adult")
+# else:
+#     print("You are a senior")
