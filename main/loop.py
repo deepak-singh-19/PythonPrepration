@@ -96,6 +96,31 @@
 # print(f"Factorial of {num} is {fact}")
 
 #---- star Pattern (Pyramid)
-rows = 5
-for i in range(1, rows + 1):
-    print(" " * (rows - i) + "*" * (2*i - 1))
+# rows = 5
+# for i in range(1, rows + 1):
+#     print(" " * (rows - i) + "*" * (2*i - 1))
+
+#pritn number 1 to 50
+# for num in range(1, 51):
+#     print(num)
+# for i in range(51):
+#     print(i)
+# for i in range(20):
+#     print(i + 1)
+
+#-- print even number 1 to 50
+# for i in range(1, 51):
+#     if i % 2 == 0:
+#         print(f"{i} is even")
+
+#--print odd number 1 to 50
+# for i in range(1, 51):
+#     if i % 2 != 0:
+#         print(f"{i} is odd number")
+
+#--print your name 10 time using loop
+# for i in range(50):
+#     print("Mahadev")
+
+#--print sum of number 1 to 10
+for i in range(1, 5):
