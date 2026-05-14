@@ -122,5 +122,21 @@
 # for i in range(50):
 #     print("Mahadev")
 
-#--print sum of number 1 to 10
-for i in range(1, 5):
+#--print sum of number 1 to 10 (using a for loop)
+# total = 0
+# for i in range(0, 11):
+#     total +=i #Add the value of i to total in each step
+#     print(f"The sum is {total}")
+
+##--print sum of number 1 to 10 (using a while loop)
+# total = 0
+# num = 1
+# while num <= 10:
+#     total += num
+#     num += 1
+# print(f"The sum is: {total}")
+
+#--print sum of number 1 to 10 without loop
+# Summing a range directly
+total = sum(range(1, 11))
+print(f"The sum is: {total}")
