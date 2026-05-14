@@ -1,4 +1,5 @@
 # --- first program
+from itertools import count
 
 # name = "Deepak"
 # for i in name:
@@ -138,5 +139,61 @@
 
 #--print sum of number 1 to 10 without loop
 # Summing a range directly
-total = sum(range(1, 11))
-print(f"The sum is: {total}")
+# total = sum(range(1, 11))
+# print(f"The sum is: {total}")
+
+#-- Repeat Ram name in 108 tim
+# for i in range(108):
+#     print("Shree Ram")
+
+#---while
+# i = 1
+# while i<=10:
+#     print("Ram")
+#     i +=1
+
+#--stop loop
+# for i in range(1, 50):
+#     if i == 25:
+#         break
+#     print(i)
+
+#--Stop loop
+# i=1
+# while i <=25:
+#     if i == 5:
+#         break
+#     print(i)
+#     i +=1
+
+#--Even number
+# for i in range(1, 21):
+#     if i %2 ==0:
+#         print(f"Even number is {i}")
+
+#-- odd number
+# for i in range(1, 101):
+#     if i%2 !=0:
+#         print(f"Odd number is {i}")
+
+#----even number with while loop
+# num = 1
+# while num <=101:
+#     print(f"The even number is {num}")
+#     num +=2
+
+# --print all item for list
+# browser = ['Chrome', 'FireFox', 'Opera', 'Safari']
+# for b in browser:
+#     print(b)
+
+#-- count total characters in string using loop
+# name = "Deepak"
+# count = 0
+# for chr in name:
+#     count +=1
+# print(f"Total characters: {count}")
+
+#-- count total characters in string simple way
+# name = input("Enter your name: ")
+# print(len(name))
