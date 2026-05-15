@@ -197,3 +197,57 @@ from itertools import count
 #-- count total characters in string simple way
 # name = input("Enter your name: ")
 # print(len(name))
+
+#- Print multiplication table of 5
+# number = 5
+# for i in range(1, 11):
+#     result = number * i
+#     print(f"{number} * {i} = {result}")
+
+#-Find sum of numbers 1–100 program
+# total_sum = 0
+# for i in range(1, 101):
+#     total_sum += i
+# print(f"The sum of numbers from 1 to 100 is: {total_sum}")
+
+#- Count vowels in string
+# text = input("Enter a text: ")
+# vowels = "aeiouAEIOU"
+# count = 0
+# for char in text:
+#     if char in vowels:
+#         count += 1
+# print(f"The number of vowels in '{text}' is: {count}")
+
+#--Revered string program
+# current_string = input('Enter a string: ')
+# revered_string = ""
+# for char in current_string:
+#     revered_string = char + revered_string
+# print(current_string)
+# print(revered_string)
+
+#---Shortest and longest number in the list (simple python program)
+# number = [4, 5, 2, 10, 52]
+# print(f"The largest number in the list is: {max(number)}")
+# print(f"The shortest number in the list is: {max(number)}")
+
+#-Find the largest number in list using loop
+# number = [14, 5, 12, 10, 52]
+# largest = number[0]
+# for num in number:
+#     if num > largest:
+#         largest = num
+# print(f"The largest number is: {largest}")
+
+#-Find the smallest number in the list using for loop
+# number = [14, 5, 12, 10, 52]
+# smallest = number[0]
+# for num in number:
+#     if num < smallest:
+#         smallest = num
+# print(f"The smallest number is {smallest}")
+
+#---Star program
+for i in range(1, 11):
+    print("* " * i)
