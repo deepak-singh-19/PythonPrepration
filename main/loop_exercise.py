@@ -58,7 +58,65 @@
 #         print(i)
 
 #---table multiplication
-number = 8
-for i in range(1, 11):
-    result = number * i
-    print(f"{number} * {i} = {result}")
+# number = 8
+# for i in range(1, 11):
+#     result = number * i
+#     print(f"{number} * {i} = {result}")
+
+#---multiplication table
+# num = int(input("Enter a number: "))
+# for i in range(1, 11):
+#     result = num * i
+#     print(f"{num} * {i} = {result}")
+
+#--star program
+# a= ''
+# for i in range(1, 11):
+#     star = ' *'
+#     a += star
+#     print(a)
+
+#---print all item in list
+# laptop_company = ['Dell', 'HP', 'Lenovo', 'Asus', 'Soni']
+# for company in laptop_company:
+#     print(company)
+
+#--Print the sum of the 1 to 10
+# count = 0
+# for i in range(1,101):
+#     count += i
+#     print(f'The sum of the 1 to 100 is : {count}')
+#     # print(f'The sum of the 1 to 100 is : {sum(range(1, i+1))}')
+
+#--Count vowels in string
+# name = input("What is your name?")
+# vowels = "aeiouAEIOU"
+# count = 0
+# for char in name:
+#     if char in vowels:
+#         count += 1
+# print(f"The number of vowels in '{name}' is: {count}")
+
+#--reversed string
+# current_text = input('Enter your text: ')
+# reverse_string = ''
+# for char in current_text:
+#     reverse_string = char + reverse_string
+# print(current_text)
+# print(reverse_string)
+
+#Find largest number in list
+# number = [10, 0, .1, 4, 96, 101,5]
+# largest = number[0]
+# for num in number:
+#     if num > largest:
+#         largest = num
+# print(f'The largest number is: {largest}')
+
+#Find smallest number in list
+# number = [10, 0, .1, 4, 96, 101,5, -1]
+# smallest = number[0]
+# for num in number:
+#     if num < smallest:
+#         smallest = num
+# print(f'The smallest number is: {smallest}')
