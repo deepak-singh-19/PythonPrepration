@@ -2,6 +2,7 @@
 # while (i <= 50):
 #     print(i)
 #     i = i+1
+from turtledemo.clock import display_date_time
 
 # name = 'Deepak'
 # for i in name:
@@ -120,3 +121,72 @@
 #     if num < smallest:
 #         smallest = num
 # print(f'The smallest number is: {smallest}')
+
+#--print 1 to 10 using while loop
+# num = 0
+# while num < 10:
+#     num += 1
+#     print(num)
+
+#--print countdown 10 to 1
+# for i in range(10, 0, -1):
+#     print(i)
+ #--even number between 1 to 10
+# number = 0
+# while number < 100:
+#     number = number + 1
+#     if number % 2 == 0:
+#         print(f"The even number is: {number}")
+
+#-print odd number 1 to 10
+# number = 0
+# while number < 100:
+#     number = number + 1
+#     if number % 2 != 0:
+#         print(f"The odd number is: {number}")
+
+#---Multiplication table
+# digit = int(input("Enter a number: "))
+# i = 1
+# while i < 10:
+#     i = i +1
+#     result = digit * i
+#     print(f"{digit} x {i} = {result}")
+
+#---password match
+# username = input("Enter your username: ")
+# password = input("Enter your password: ")
+# if username == "admin" and password == "123":
+#     print("Welcome Admin")
+# else:
+#     print("incorrect username or password")
+
+
+#--Password match using while loop
+# username = input("Enter your username: ")
+# password = input("Enter your password: ")
+#
+# while username != "Deepak" and password != 123:
+#     print("Wrong username or password\n")
+#
+#     username = input("Enter your username: ")
+#     password = input("Enter your password: ")
+#
+# print("Welcome " + username)
+
+#--break program
+# for i in range(1, 11):
+#     if i == 5:
+#         break
+#     print(i)
+
+#--continue program
+# for i in range(1, 11):
+#     if i == 5:
+#         continue
+#     print(i)
+
+#Age calculater
+# birth_year = int(input("Enter birth year: "))
+# current_year = int(input("Enter current year: "))
+# print(current_year - birth_year)
