@@ -2,7 +2,7 @@
 # while (i <= 50):
 #     print(i)
 #     i = i+1
-from turtledemo.clock import display_date_time
+
 
 # name = 'Deepak'
 # for i in name:
@@ -190,3 +190,6 @@ from turtledemo.clock import display_date_time
 # birth_year = int(input("Enter birth year: "))
 # current_year = int(input("Enter current year: "))
 # print(current_year - birth_year)
+
+for i in range(1,11):
+    print(i, end=' ')
