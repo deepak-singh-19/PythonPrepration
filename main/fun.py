@@ -1,5 +1,6 @@
 # import time
 
+
 #---create a function that prints "Welcome to the python"
 # def welcome_message():
 #     print("Welcome to the Automation testing using with python language")
@@ -53,8 +54,64 @@
 # print(f"The largest number is: {result}")
 
 #-Create a login function with username and password parameter.
-def login(username, password):
+# def login(username, password):
+#     print(f"Username: {username}, Password: {password}")
+# login('Deepak', 'ds123')
 
+#-Create a login function with username and password parameter using return
+# def login(username, password):
+#     correct_username = "Deepak19"
+#     correct_password = "DD123@"
+#
+#     if username == correct_username and password == correct_password:
+#         return "Welcome to the Panel"
+#     else:
+#         return "Access Denied! Your username & password is incorrect"
+# print(login("Deepak", "123@dd"))
+# print(login("Singh@","877h"))
+# print(login("Deepak19", "DD123@"))
+
+#---Create function that returns square of number.
+# def square(a):
+#     return a * a
+# print(square(4))
+
+#---Create function that returns square of number.(using with user input)
+# num = int(input("Enter your number: "))
+# def square(num):
+#     return num * num
+# print(square(num))
+
+#-Create function that returns total characters in string.
+# def count_chr(a):
+#     # return len(a)
+#     print(f"Your Character count is : {len(a)}")
+# # print(count_chr("Deepak"))
+# count_chr("Deepak")
+# count_chr("Selenium")
+# count_chr("Python")
+# count_chr("Automation")
+
+#-Create function that prints numbers from 1 to n using loop.
+# def number(num):
+#     for num in range(1, num +1):
+#         print(num)
+#         # return num
+# # print(number(1))
+# number(101)
+
+#--Create function to print multiplication table.
+# num = 3
+# for x in range(1, 11):
+#     result = num * x
+#     # print(result)
+#     print(f"{num} * {x} : {result}")
+
+def multiplication(num):
+    for i in range(1, 11):
+        result = num * i
+        print(f"{num} * {i} : {result}")
+multiplication(2)
 
 # def count(start, end):
 #     for x in reversed(range(start, end+1)):
