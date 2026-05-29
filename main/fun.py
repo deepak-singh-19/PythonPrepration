@@ -107,11 +107,60 @@
 #     # print(result)
 #     print(f"{num} * {x} : {result}")
 
-def multiplication(num):
-    for i in range(1, 11):
-        result = num * i
-        print(f"{num} * {i} : {result}")
-multiplication(2)
+#--Create function to print multiplication table.
+# def multiplication(num):
+#     for i in range(1, 11):
+#         result = num * i
+#         print(f"{num} * {i} : {result}")
+# multiplication(2)
+# multiplication(3)
+# multiplication(4)
+
+#-Create function to check password length.
+# def length(password):
+#     return len(password)
+#     # return (f"The password length is {length(password)}")
+# print(f"The length of the password is : {length('ds@2323')}")
+# print(f"The length of the password is : {length('JKJ@132J')}")
+# print(f"The length of the password is : {length('HJH@894793')}")
+
+#-Create function to reverse string.
+# def text(a):
+#     print("".join(reversed(a)))
+# text("Hello World")
+# text("Python")
+
+# current_text = input('Enter your text: ')
+# reverse_string = ''
+# for char in current_text:
+#     reverse_string = char + reverse_string
+# print(current_text)
+# print(reverse_string)
+
+# def text(current_text):
+#     reversed_text = ""
+#     for char in current_text:
+#         reverse_string = char + reversed_text
+#         return reverse_string
+# user_text = input("Enter your text : ")
+# print(text(user_text))
+
+#-Create function to reverse string.
+# def text(current_text):
+#     # 1. Move this inside the function so it resets every time
+#     reverse_string = ''
+#
+#     for char in current_text:
+#         # 2. Use 'reverse_string' here, not 'current_text'
+#         reverse_string = char + reverse_string
+#
+#         # 3. Move the return OUTSIDE the loop so it finishes counting
+#     return reverse_string
+#
+# # 4. Get input and print the result
+# user_text = input('Enter your text: ')
+# print(text(user_text))
+
 
 # def count(start, end):
 #     for x in reversed(range(start, end+1)):
