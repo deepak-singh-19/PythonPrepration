@@ -1,4 +1,5 @@
 # import time
+# import webbrowser
 
 
 #---create a function that prints "Welcome to the python"
@@ -161,6 +162,42 @@
 # user_text = input('Enter your text: ')
 # print(text(user_text))
 
+#-Create function to count vowels in string.
+# name = input("What is your name?")
+# vowels = "aeiouAEIOU"
+# count = 0
+# for char in name:
+#     if char in vowels:
+#         count += 1
+# print(f"The number of vowels in '{name}' is: {count}")
+
+# def count_vowels(name):
+#     vowels = "aeiouAEIOU"
+#     count = 0
+#     for chr in name:
+#         if chr in vowels:
+#             count +=1
+#     return count
+# user_name = input("Enter your name : ")
+# # print(count_vowels(user_name))
+# print(f"Number of vowels: {count_vowels(user_name)}")
+
+#--browser launch function (Simple program)
+# def browser_launch():
+#     browser = "google.com"
+#     return browser
+# print(browser_launch())
+
+#--browser launch function (real browser)
+# def browser_launch(url):
+#     print(f"Your browser launching url is : {url}")
+#     webbrowser.open(url)
+# browser_launch("https://www.google.com")
+
+#--browser launch function (Third simple program)
+# def browser_launch(a):
+#     print(f"Your launching browser is: {a}")
+# browser_launch("Chrome Browser")
 
 # def count(start, end):
 #     for x in reversed(range(start, end+1)):
